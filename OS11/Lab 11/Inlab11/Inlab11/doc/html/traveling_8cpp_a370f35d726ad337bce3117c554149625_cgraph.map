@@ -1,0 +1,4 @@
+<map id="computeDistance" name="computeDistance">
+<area shape="rect" id="node1" title="Comput the distance of a whole." coords="5,5,129,31"/>
+<area shape="rect" id="node2" href="$class_middle_earth.html#a23b3c1bc67569c0ad00aef88ed4ce863" title="Calculate the distance between two passed cities." coords="177,5,347,31"/>
+</map>

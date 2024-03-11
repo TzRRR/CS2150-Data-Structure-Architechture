@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg936\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 C007	00		jmp	start	skip around variables\
+0014	01	14	dw	14		\
+0001	02	one	dw	1	\
+0000	03	i	dw	0	\
+0000	04	aa	dw	0	\
+0000	05	zero	dw	0\
+0000	06	\
+3000	07		load	0\
+4003	08		store	i\
+3003	09	loop	load	i	if i = 14, exit the loop\
+6001	0A		sub	14\
+D015	0B		jmpe	xit\
+3004	0C		load	aa\
+5003	0D		add	i\
+400F	0E		store	doit\
+b000	0F	doit	nop\
+1800	10		printH\
+3003	11		load	i\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 5002	12		add	1\
+4003	13		store 	i\
+C009	14		jmp		get back to the start\
+0000	15		halt}

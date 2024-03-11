@@ -1,0 +1,5 @@
+<map id="shuffle" name="shuffle">
+<area shape="rect" id="node1" title="New shuffle method that uses the Mersenne Twister engine." coords="221,31,283,56"/>
+<area shape="rect" id="node2" href="$class_middle_earth.html#ad730d037c3946ec1129657fc5e0cb353" title="Provide the list of cities to travel to given a number of destinations." coords="7,5,171,31"/>
+<area shape="rect" id="node3" href="$class_middle_earth.html#ad8fe036789b54f21f826fa0abdc06580" title="Constructor of Middle&#45;Earth object." coords="5,55,173,80"/>
+</map>

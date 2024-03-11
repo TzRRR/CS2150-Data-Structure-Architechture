@@ -1,0 +1,34 @@
+; Tianze Ren, tr2bx, 10/31/2022, mathlib.s
+    global _product
+    global _power
+
+    section .text
+
+_product:
+    xor rax, rax
+    xor r10, r10
+_start:
+    cmp r10, rsi
+    je  _done
+    add rax, rdi
+    inc r10
+    jmp _start
+_done:
+    ret
+
+_power:
+    xor rax, rax
+    mov rax, 1
+_recursion:
+    cmp rsi, 0
+    je  _done
+    push rsi
+    mov rsi, rdi
+    call _product
+    dec rsi
+    call _recursion
+    pop rsi
+_finish:
+    ret
+
+

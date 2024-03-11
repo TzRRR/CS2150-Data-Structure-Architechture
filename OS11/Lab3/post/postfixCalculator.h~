@@ -1,0 +1,21 @@
+// Tianze Ren, tr2bx, 09/12/2022, postfixCalculator.h
+#include <iostream>
+#include "stack.cpp"
+#include <vector>
+#ifndef POSTFIXCALCULATOR_H
+#define POSTFIXCALCULATOR_H
+#include "List.h"
+#include "ListNode.h"
+#include "ListItr.h"
+using namespace std;
+
+class postfixCalculator{
+public:
+    postfixCalculator();
+    ~postfixCalculator();
+    int cal (vector <string> input);
+    stack element;
+    
+};
+
+#endif

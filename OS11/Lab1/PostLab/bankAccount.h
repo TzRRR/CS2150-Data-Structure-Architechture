@@ -1,0 +1,24 @@
+// Tianze Ren, tr2bx, 08/31/2022, bankAccount.h
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <cmath>
+#include <iomanip>
+#ifndef BANKACCOUNT_H
+#define BANKACCOUNT_H
+using namespace std;
+
+class bankAccount {
+public:
+  bankAccount();
+  bankAccount(double amount);
+  ~bankAccount();
+  double withdraw(double amount);
+  double deposit(double amount);
+  double getBalance();
+
+ private:
+  double balance;
+
+};
+#endif

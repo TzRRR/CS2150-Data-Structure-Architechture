@@ -1,0 +1,5 @@
+<map id="MiddleEarth::getDistance" name="MiddleEarth::getDistance">
+<area shape="rect" id="node1" title="Calculate the distance between two passed cities." coords="276,5,445,31"/>
+<area shape="rect" id="node2" href="$traveling_8cpp.html#a370f35d726ad337bce3117c554149625" title="Comput the distance of a whole." coords="104,5,228,31"/>
+<area shape="rect" id="node3" href="$traveling_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="The main function that takes in 5 parameters to create a world and print the path." coords="5,5,56,31"/>
+</map>

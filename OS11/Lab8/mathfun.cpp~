@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+extern "C" long vecsum (long*, long);
+
+int main(){
+  long a;
+  long b;
+  cout << "Enter integer 1: ";
+  cin >> a;
+  cout << "Enter integer 2: ";
+  cin >> b;
+  long product = product(a,b);
+  long power = power(a,b);
+  cout << "Product: " << product << endl;
+  cout << "Power: " << power << endl;
+
+}
